@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="flex gap-5 mt-8 items-center">
             {socialMedia.map((icon) => (
               <a 
-                href={icon.url} //icon.url
+                href=`${icon.url}` //icon.url
                 className="cursor-pointer flex justify-center items-center h-12 w-12 bg-white rounded-full hover:bg-coral-red"
               >
                 <img 
