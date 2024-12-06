@@ -106,22 +106,22 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Air Force 1", link: "/nike-experiment/" },
+            { name: "Air Max 1", link: "/nike-experiment/" },
+            { name: "Air Jordan 1", link: "/nike-experiment/" },
+            { name: "Air Force 2", link: "/nike-experiment/" },
+            { name: "Nike Waffle Racer", link: "/nike-experiment/" },
+            { name: "Nike Cortez", link: "/nike-experiment/" },
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
-            { name: "Payment policy", link: "/" },
+            { name: "About us", link: "/nike-experiment/" },
+            { name: "FAQs", link: "/nike-experiment/" },
+            { name: "How it works", link: "/nike-experiment/" },
+            { name: "Privacy policy", link: "/nike-experiment/" },
+            { name: "Payment policy", link: "/nike-experiment/" },
         ],
     },
     {
@@ -134,7 +134,7 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo", url: "https://x.com/nike?s=11" },
+    { src: twitter, alt: "twitter logo", url: "https://x.com/nike?s=11" },
+    { src: instagram, alt: "instagram logo", url: "https://www.instagram.com/nike/profilecard/?igsh=MTU5cG9sc3o0ZWkxeA==" },
 ];
