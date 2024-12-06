@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="nax-container">
       <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
-          <a href="/" className="cursor-pointer">
+          <a href="/nike-experiment/" className="cursor-pointer">
             <img 
               src={footerLogo}
               width={150}
@@ -67,7 +67,7 @@ const Footer = () => {
           />
           <p className="text-sm">2021 Nike. All Rights Reserved.</p>
         </div>
-        <a className="hover:text-coral-red text-white text-sm font-montserrat cursor-pointer" href="/">
+        <a className="hover:text-coral-red text-white text-sm font-montserrat cursor-pointer" href="/nike-experiment/">
           Privacy Policy
         </a>
       </div>
